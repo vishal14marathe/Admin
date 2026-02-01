@@ -55,7 +55,7 @@ function App() {
     setUser(null);
   };
 
-  // Show loading state while checking authentication
+  // Show loading state while checking authentication and 
   if (loading) {
     return (
       <div className="flex items-center justify-center min-h-screen bg-gray-50">
